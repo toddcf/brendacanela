@@ -27,7 +27,7 @@
 
 ## Coding
 
-- Atomic Design: Code atoms, molecules, and organisms.
+- Atomic Design: Code the atoms, molecules, and organisms.
 
 ## Hosting
 
