@@ -15,6 +15,7 @@
     - Main header image with a shaded div (like DiCaprio's site)
     - Representation (a grid of three beneath the homepage header image)
   - Credits / Résumé
+    - Bio: https://www.backstage.com/magazine/article/steps-writing-great-bio-13225/
     - A grid of cards with an image for each credit -- at least for film and TV. Standardize the ratio for all images.
     - A link to a printable PDF résumé.
   - Reels
