@@ -32,6 +32,8 @@
 
 ## Hosting
 
-- Transfer to Dreamhost.
 - Deployment checklist.
-- Push live.
+- Transfer to Dreamhost.
+  - Confirm that there will be no additional hosting charges.
+  - Confirm how to host even though the domain is purchased through another company.
+- Add to my portfolio.
