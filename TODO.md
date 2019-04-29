@@ -6,7 +6,7 @@
 - Gather all video.
 - Gather all content (text).
 - Gather all audio.
-- Get or create PDF of résumé.
+- Recreate PDF of résumé AND FIX THE ERRORS SHE MENTIONED.
 - Ideas: https://www.elegantthemes.com/blog/tips-tricks/11-examples-of-actor-websites-built-with-wordpress
   - Use grid and cards with images for each credit.
   - Have a button for a PDF version of the credits.
@@ -28,7 +28,7 @@
 
 ## Coding
 
-- Atomic Design: Code the atoms, molecules, and organisms.
+- Atomic Design / BEM: Code the atoms, molecules, and organisms.
 
 ## Hosting
 
