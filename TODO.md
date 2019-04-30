@@ -28,7 +28,9 @@
 
 ## Coding
 
-- Atomic Design / BEM: Code the atoms, molecules, and organisms.
+- DO use Bootstrap because of the nav.
+- And since you're using Bootstrap, go ahead and use its grid, too, but use your own custom 1440px container.
+- But still use BEM for the rest.
 
 ## Hosting
 
