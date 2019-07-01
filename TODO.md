@@ -18,21 +18,27 @@
     - Representation (a grid of three beneath the homepage header image)
   - Credits / Résumé
     - Bio: https://www.backstage.com/magazine/article/steps-writing-great-bio-13225/
-    - A grid of cards with an image for each credit -- at least for film and TV. Standardize the ratio for all images.
     - A link to a printable PDF résumé.
   - Reels
 
+
 ## Wireframes & Mockups
 
-- Wireframe each page with Adobe XD.
-- Mockup each page with Adobe XD.
-- Get client approval / Make any necessary changes / Get final client approval.
+- Wireframe each page with Adobe XD (for portfolio purposes).
+
 
 ## Coding
 
-- DO use Bootstrap because of the nav.
-- And since you're using Bootstrap, go ahead and use its grid, too, but use your own custom 1440px container.
-- But still use BEM for the rest.
+### Nav
+
+- Build a custom nav without Bootstrap.
+  - Mobile: Animated dropdown.
+  - Leave out the active page.
+
+### Home
+
+- Use SVGs for all icons.
+
 
 ## Hosting
 
