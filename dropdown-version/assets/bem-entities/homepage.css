@@ -1,0 +1,108 @@
+/* BODY */
+.body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* CENTER */
+@media (min-width: 1440px) {
+  .center__1440 {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+}
+
+/* NAV */
+.nav {
+  
+}
+
+.nav__sm {
+  height: max-content;
+  width: max-content;
+}
+
+.nav__sm_icon {
+  color: #707070;
+  display: inline-block;
+  float: right;
+  font-size: 9vw;
+  position: relative;
+}
+
+.nav__sm_dropdown {
+  background: #000;
+  box-sizing: border-box;
+  color: #707070;
+  left: 0;
+  padding: 1.5vw;
+  position: absolute;
+  right: 0;
+  top: 50px; /* Use JS to make this equal to the navbar height */
+  width: 100%;
+}
+
+.nav__sm_dropdown-btn {
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.nav__sm_dropdown-btn:active,
+.nav__sm_dropdown-btn:focus,
+.nav__sm_dropdown-btn:visited {
+  outline: none;
+}
+
+.nav__sm_dropdown-btn:hover {
+  cursor: pointer;
+}
+
+.nav__sm_li {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.nav__sm_ul {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  padding-block-end: 0;
+  padding-block-start: 0;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.navbar__name {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.navbar__name-text {
+  color: #707070;
+  font-size: 9vw;
+}
+
+.navbar__sm {
+  box-sizing: border-box;
+  display: block;
+  /*min-height: 70px;*/
+  padding: 2vw;
+  position: relative;
+  width: 100%;
+}
+
+.navbar_black {
+  background: #000;
+  color: #707070;
+}

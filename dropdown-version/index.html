@@ -13,6 +13,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet">
+    <!-- font-family: 'Belleza', sans-serif; -->
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/homepage.css">
@@ -39,17 +40,46 @@
 
     <div class="body__project-container">
 
-      <div class="topbar">
+      <div class="navbar__sm navbar_black">
 
-        <div class="topbar__heading">Brenda Canela</div>
+        <!-- Small Screens -->
+        <button class="nav__sm_dropdown-btn">
+          
+          <div class="navbar__name">
+            <div class="navbar__name-text">Brenda Canela</div>
+          </div> <!-- Close .navbar__name -->
+          
+          <i class="nav__sm_icon fas fa-bars"></i>
+          <!-- <i class="nav__sm_bars-icon fas fa-chevron-up"></i> -->
+        
+        </button>
 
-        <nav class="topbar__nav">
-          <a class="topbar__nav-item topbar__nav-item_active">Home</a>
-          <a href="#" class="topbar__nav-item">Résumé</a>
-          <a href="#" class="topbar__nav-item">Reels</a>
-        </nav>
+        <div class="nav__sm_dropdown">
+          <ul class="nav__sm_ul">
+            <li class="nav__sm_li">Home</li>
+            <li class="nav__sm_li">Résumé</li>
+            <li class="nav__sm_li">Reels</li>
+          </ul>
+        </div>
 
-      </div> <!-- Close .topbar -->
+      </div> <!-- Close .navbar__sm -->
+
+      <!-- Large Screens -->
+      <div class="navbar__lg navbar_black">
+        
+        <div class="center__1440">
+
+          <div class="navbar__name">
+            <!-- <div class="navbar__name-text">Brenda Canela</div> -->
+          </div> <!-- Close .navbar__name -->
+
+          <div class="navbar__lg_nav">
+
+          </div> <!-- Close .navbar__lg_nav -->
+
+        </div> <!-- Close .center__1440 -->
+
+      </div> <!-- Close .navbar__lg -->
 
     </div> <!-- Close .body__project-container -->
 
