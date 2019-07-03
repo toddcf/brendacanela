@@ -59,3 +59,65 @@
 .topbar__nav-item_active {
   color: #e6e6e6;
 }
+
+/* HEADER */
+@media (max-width: 575.98px) {
+  
+  .header__img-sm {
+    background-image: url(header/__img-sm/blue-shirt-1-576x384-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    padding-bottom: 66%;
+    width: 100%;
+  }
+
+}
+
+.header__textbox {
+  background: #000;
+  box-sizing: border-box;
+  display: block;
+}
+
+.header__textbox-name {
+  color: #fff;
+  font-family: 'Belleza', sans-serif;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  text-align: center;
+}
+
+.header__textbox-unions {
+  color: #fff;
+  font-family: 'Belleza', sans-serif;
+  text-align: center;
+}
+
+.header__textbox-fields {
+  color: #fff;
+  font-family: 'Belleza', sans-serif;
+  text-align: center;
+}
+
+.header__textbox-agency {
+  color: #fff;
+  font-family: 'Belleza', sans-serif;
+  text-align: center;
+}
+
+.header__textbox-address {
+  color: #707070;
+  font-family: 'Belleza', sans-serif;
+  text-align: center;
+}
+
+.header__textbox-phone {
+  color: #fff;
+  font-family: 'Belleza', sans-serif;
+  text-align: center;
+}
