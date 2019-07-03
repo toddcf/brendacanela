@@ -34,6 +34,9 @@
 - Build a custom nav without Bootstrap.
   - Mobile: Animated dropdown.
   - Leave out the active page.
+- SVG:
+  - "You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."
+  - Link to license: https://fontawesome.com/license
 
 ### Home
 
