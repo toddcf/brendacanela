@@ -29,7 +29,9 @@
 
 ## Coding
 
-- Code responsive font sizes using ratios PLUS vw units PLUS min and max points.
+- Code responsive font sizes using ratios PLUS vw units PLUS min and max points. Create a step-by-step checklist as you do this.
+  - https://www.smashingmagazine.com/2016/05/fluid-typography/
+  - https://type-scale.com/
 
 ### Nav
 
