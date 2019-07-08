@@ -194,7 +194,7 @@
 
 @media (min-width: 1440px) {
   .header__textbox {
-    left: 59%;
+    left: 62%;
     right: calc(((100vw - 1440px) / 2) + 1vw);
     top: 10%;
     transform: translateY(0);
