@@ -8,23 +8,39 @@
 /* CENTER */
 @media (min-width: 1440px) {
   .center__1440 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0 auto;
     max-width: 1440px;
+    padding: 0 15px;
+    width: 100%;
   }
 }
 
 /* TOPBAR */
 .topbar {
-  background: #000;
   box-sizing: border-box;
   padding: 2vw;
 }
 
-.topbar__heading {
+.topbar_black {
   background: #000;
+}
+
+.topbar__heading {
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .topbar__heading {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+.topbar__text {
   color: #707070;
   font-family: 'Belleza', sans-serif;
-  font-size: 9vw;
   margin-block-end: 0;
   margin-block-start: 0;
   margin-bottom: 1vw;
@@ -35,14 +51,25 @@
 }
 
 @media (min-width: 576px) {
-  .topbar__heading {
-    font-size: 6vw;
+  .topbar__text {
     text-align: left;
   }
 }
 
 /* NAV */
-.topbar__nav {
+.topbar__navbar {
+  box-sizing: border-box;
+  display: block;
+}
+
+@media (min-width: 576px) {
+  .topbar__navbar {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
+.topbar__nav_flexbox {
   align-content: flex-start;
   align-items: flex-start;
   background: #000;
@@ -56,11 +83,17 @@
   color: #707070;
   flex-grow: 1;
   font-family: 'Belleza', sans-serif;
-  font-size: 5vw;
+  /*font-size: 5vw;*/
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   transition: 250ms;
+}
+
+@media (min-width: 576px) {
+  .topbar__nav-item {
+    text-align: right;
+  }
 }
 
 .topbar__nav-item:hover {
@@ -214,4 +247,80 @@
 .header__textbox-phone:hover {
   background: #fff;
   color: #000;
+}
+
+
+/* FONT */
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 28.6px;
+  }
+}
+
+.font_size_body {
+  font-size: 16px;
+}
+
+.font_size_1 {
+  font-size: 1em;
+}
+
+.font_size_2 {
+  font-size: 1.125em;
+}
+
+@media (min-width: 800px) {
+  .font_size_2 {
+    font-size: 1.25em;
+  }
+}
+
+.font_size_3 {
+  font-size: 1.266em;
+}
+
+@media (min-width: 800px) {
+  .font_size_3 {
+    font-size: 1.563em;
+  }
+}
+
+.font_size_4 {
+  font-size: 1.424em;
+}
+
+@media (min-width: 800px) {
+  .font_size_4 {
+    font-size: 1.953em;
+  }
+}
+
+.font_size_5 {
+  font-size: 1.602em;
+}
+
+@media (min-width: 800px) {
+  .font_size_5 {
+    font-size: 2.441em;
+  }
+}
+
+.font_size_6 {
+  font-size: 1.802em; /* 1.125 */
+}
+
+@media (min-width: 800px) {
+  .font_size_6 {
+    font-size: 3.052em; /* 1.250 */
+  }
 }

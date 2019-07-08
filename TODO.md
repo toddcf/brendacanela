@@ -35,6 +35,7 @@
 
 ### Nav
 
+- Configure nav placement for 576px and up.
 
 
 ### Home
