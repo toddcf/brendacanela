@@ -363,22 +363,13 @@ html {
 }
 
 /* REP */
-.rep-deck {
-  align-content: flex-start;
-  align-items: flex-start;
-  background: #000;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
 .rep-card {
   background: #d6c7b0;
   border-radius: .5em;
   box-sizing: border-box;
+  margin-bottom: 2em;
   padding: 1em;
-  width: 100%;
+  width: 95%;
 }
 
 @media (min-width: 576px) {
@@ -402,7 +393,15 @@ html {
   text-align: center;
   text-decoration: none;
   padding: .1em 0;
+  transition: 250ms;
   width: 100%;
+}
+
+.rep-card__button:active,
+.rep-card__button:focus,
+.rep-card__button:hover {
+  background: #000;
+  color: #d6c7b0;
 }
 
 .rep-card__button_icon {
@@ -416,7 +415,7 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-bottom: .5em;
+  margin-bottom: .75em;
 }
 
 .rep-card__icon-box {
@@ -447,7 +446,18 @@ html {
   flex-grow: 1;
 }
 
+.rep-deck {
+  align-content: flex-start;
+  align-items: flex-start;
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2em 0;
+}
+
 .rep-icon {
   font-size: 2em;
-  margin-right: .25em;
+  margin-right: .3em;
 }
