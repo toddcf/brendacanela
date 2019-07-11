@@ -7,6 +7,12 @@
   margin: .2em;
 }
 
+@media (min-width: 576px) {
+  .footer__icon {
+    font-size: 60px;
+  }
+}
+
 .footer__icon-link,
 .footer__icon-link:link,
 .footer__icon-link:visited {
