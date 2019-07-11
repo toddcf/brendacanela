@@ -40,7 +40,7 @@
 
 ### Home
 
-
+- Re-calculate how the textbox overlay lines up with the nav for every screen size.
 
 ## Hosting
 

@@ -1,7 +1,13 @@
 /* TOPBAR */
 .topbar {
   box-sizing: border-box;
-  padding: 0 1em;
+  padding: 0 5%;
+}
+
+@media (min-width: 1500px) {
+  .topbar {
+    padding: 0;
+  }
 }
 
 .topbar_black {
