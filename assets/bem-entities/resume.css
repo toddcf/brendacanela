@@ -130,46 +130,6 @@
   }
 }
 
-.header-overlap__img {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 0;
-  margin-bottom: 1em;
-  padding-bottom: 66%;
-  width: 100%;
-}
-
-@media (max-width: 575.98px) {
-  .header-overlap__img {
-    background-image: url(header-overlap/__img/black-shirt-1-576x384-min.jpg);
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .header-overlap__img {
-    background-image: url(header-overlap/__img/black-shirt-1-768x512-min.jpg);
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .header-overlap__img {
-    background-image: url(header-overlap/__img/black-shirt-1-992x661-min.jpg);
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .header-overlap__img {
-    background-image: url(header-overlap/__img/black-shirt-1-1200x800-min.jpg);
-  }
-}
-
-@media (min-width: 1200px) {
-  .header-overlap__img {
-    background-image: url(header-overlap/__img/black-shirt-1-1440x960-min.jpg);
-  }
-}
-
 @media (min-width: 576px) {
   .header-overlap__img-positioner {
     left: 0;

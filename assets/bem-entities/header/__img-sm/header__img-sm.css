@@ -1,0 +1,13 @@
+@media (max-width: 575.98px) {
+  .header__img-sm {
+    background-image: url(blue-shirt-1-576x384-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    padding-bottom: 66%;
+    width: 100%;
+  }
+}

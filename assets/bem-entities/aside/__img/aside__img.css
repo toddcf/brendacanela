@@ -1,0 +1,20 @@
+.aside__img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 150%;
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+  .aside__img {
+    background-image: url(teal-shirt-600x900-min.jpg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .aside__img {
+    background-image: url(teal-shirt-720x1080-min.jpg);
+  }
+}
