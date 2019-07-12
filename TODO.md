@@ -1,35 +1,21 @@
 # To Do
 
-## Designing
+## Images
 
-- Gather all images.
-- Gather all video.
-- Gather all content (text).
-- Gather all audio.
-- Recreate PDF of résumé.
-  - Use Belleza font to stay consistent with website.
-  - Fix the errors she mentioned.
-- Ideas: https://www.elegantthemes.com/blog/tips-tricks/11-examples-of-actor-websites-built-with-wordpress
-  - Use grid and cards with images for each credit.
-  - Have a button for a PDF version of the credits.
-- Structure:
-  - Home
-    - Main header image with a shaded div (like DiCaprio's site)
-    - Representation (a grid of three beneath the homepage header image)
-  - Credits / Résumé
-    - Bio: https://www.backstage.com/magazine/article/steps-writing-great-bio-13225/
-    - A link to a printable PDF résumé.
-  - Reels
+- Get full-size image for homepage.
 
 
-## Wireframes & Mockups
+## Video
 
-- Wireframe each page with Adobe XD (for portfolio purposes).
+- Have Jose fix aspect ratios.
+- Upload new reels to YouTube.
+- Embed YouTube iFrames on page.
 
 
-### Résumé
+## Audio
 
-- Add hover effect to résumé image.
+- Upload audio to SoundCloud.
+- Embed SoundCloud players on page.
 
 
 ## Hosting
