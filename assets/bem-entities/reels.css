@@ -1,4 +1,4 @@
-.aside__img {
+/*.aside__img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,15 +9,15 @@
 
 @media (max-width: 1199.98px) {
   .aside__img {
-    background-image: url(../img/teal-shirt-600x900-min.jpg);
+    background-image: url(../img_gh-pages/teal-shirt-600x900-min.jpg);
   }
 }
 
 @media (min-width: 1200px) {
   .aside__img {
-    background-image: url(../img/teal-shirt-720x1080-min.jpg);
+    background-image: url(../img_gh-pages/teal-shirt-720x1080-min.jpg);
   }
-}
+}*/
 
 
 
