@@ -38,9 +38,16 @@
 - Configure nav placement for 576px and up.
 
 
+### Footer
+
+- Adjust icon flexbox:
+  - All icons are 60px.
+  - Flexbox is a four-box square until it can be a single row of four icons.
+
+
 ### Home
 
-- Re-calculate how the textbox overlay lines up with the nav for every screen size.
+
 
 ## Hosting
 
