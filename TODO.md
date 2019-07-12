@@ -27,26 +27,9 @@
 - Wireframe each page with Adobe XD (for portfolio purposes).
 
 
-## Coding
+### Résumé
 
-- Code responsive font sizes using ratios PLUS vw units PLUS min and max points. Create a step-by-step checklist as you do this.
-  - https://www.smashingmagazine.com/2016/05/fluid-typography/
-  - https://type-scale.com/
-
-### Nav
-
-- Configure nav placement for 576px and up.
-
-
-### Footer
-
-- Adjust icon flexbox:
-  - All icons are 60px.
-  - Flexbox is a four-box square until it can be a single row of four icons.
-
-
-### Home
-
+- Add hover effect to résumé image.
 
 
 ## Hosting

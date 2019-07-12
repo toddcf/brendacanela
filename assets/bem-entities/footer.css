@@ -2,15 +2,15 @@
   padding-bottom: 2em;
 }
 
-.footer__icon {
-  font-size: 3.9em;
-  margin: .2em;
+.footer__flex-item {
+  width: auto;
 }
 
-@media (min-width: 576px) {
-  .footer__icon {
-    font-size: 60px;
-  }
+.footer__icon {
+  display: block;
+  font-size: 60px;
+  margin: .2em;
+  text-align: center;
 }
 
 .footer__icon-link,
