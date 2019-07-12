@@ -226,7 +226,13 @@
   background-size: cover;
   height: 0;
   padding-bottom: 133%;
+  transform: scale(1);
+  transition: 500ms;
   width: 100%;
+}
+
+.resume-img:hover {
+  transform: scale(1.03);
 }
 
 @media (max-width: 575.98px) {
@@ -239,6 +245,10 @@
   .resume-img {
     background-image: url(resume-img/resume-img-768x994-min.jpg);
   }
+}
+
+.resume-img__overflow {
+  overflow: hidden;
 }
 
 /* SECTION */
