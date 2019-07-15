@@ -76,10 +76,6 @@
 }
 
 .media-module__media {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#00264d), to(#004d99));
-  background-image: -webkit-linear-gradient(top left, #00264d, #004d99);
-  background-image: -o-linear-gradient(top left, #00264d, #004d99);
-  background-image: linear-gradient(to bottom right, #00264d, #004d99);
   height: 0;
   margin-bottom: .5em;
   position: relative;
@@ -87,10 +83,15 @@
 }
 
 .media-module__media_audio {
-  padding-bottom: 29.7%;
+  height: auto;
+  /*padding-bottom: 29.7%;*/
 }
 
 .media-module__media_video {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00264d), to(#004d99));
+  background-image: -webkit-linear-gradient(top left, #00264d, #004d99);
+  background-image: -o-linear-gradient(top left, #00264d, #004d99);
+  background-image: linear-gradient(to bottom right, #00264d, #004d99);
   padding-bottom: 56.25%;
 }
 
