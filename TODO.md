@@ -2,11 +2,10 @@
 
 ## Menu
 
-- Change to 1140px width.
+- Change to 1140px width (and calculate padding on left and right).
 
 ## Images
 
-- Download all images from Brenda's link and let them backup to SOS. (WAITING FOR: DOWNLOAD CONFIRMATION EMAIL.)
 - Swap out full-size image for homepage.
 
 
