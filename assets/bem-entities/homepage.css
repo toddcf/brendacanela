@@ -35,6 +35,12 @@
     margin-left: auto;
     margin-right: 5%;
     width: 33%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__textbox {
+    width: 33%; /* Fallback */
     width: max-content;
   }
 }
