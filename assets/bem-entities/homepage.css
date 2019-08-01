@@ -1,5 +1,5 @@
 @media (min-width: 576px) {
-  .absolute__1440 {
+  .absolute__1140 {
     left: 50%;
     position: absolute;
     top: 50%;
@@ -10,9 +10,9 @@
   }
 }
 
-@media (min-width: 1500px) {
-  .absolute__1440 {
-    max-width: 1440px;
+@media (min-width: 1200px) {
+  .absolute__1140 {
+    max-width: 1140px;
     top: 10%;
     -webkit-transform: translate(-50%, 0);
         -ms-transform: translate(-50%, 0);
@@ -35,10 +35,11 @@
     margin-left: auto;
     margin-right: 5%;
     width: 33%;
+    width: max-content;
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
   .header__textbox {
     margin-right: 0;
   }
@@ -137,6 +138,10 @@
 .header__textbox-phone:hover {
   background: #fff;
   color: #000;
+}
+
+.header_black {
+  background: #000;
 }
 
 /* REP CARDS */

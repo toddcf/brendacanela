@@ -29,7 +29,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1139.98px) {
   .header__img-lg {
     background-image: url(blue-shirt-1-1200x800-min.jpg);
     background-position: center;
@@ -42,7 +42,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1140px) {
   .header__img-lg {
     background-image: url(blue-shirt-1-1620x1080-min.jpg);
     background-position: center;

@@ -1,9 +1,5 @@
 # To Do
 
-## Menu
-
-- Change to 1140px width (and calculate padding on left and right).
-
 ## Images
 
 - Swap out full-size image for homepage.
