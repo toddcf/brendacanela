@@ -13,6 +13,11 @@
 - Embed YouTube iFrames on page.
 
 
+## Footer
+
+- Add JS for copyright date.
+
+
 ## Hosting
 
 - Deployment checklist.
