@@ -17,3 +17,13 @@
     width: 100%;
   }
 }
+
+@media (min-width: 1940px) {
+  .center__1920 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+  }
+}
