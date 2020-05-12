@@ -15,6 +15,8 @@
 
 - Deployment checklist.
 - Transfer hosting to Dreamhost.
-  - DO NOT transfer domain registration to Dreamhost: https://help.dreamhost.com/hc/en-us/articles/215250318. Cost is $9.99: https://www.dreamhost.com/domains/pricing/
-  - Add the domain to Dreamhost hosting (does not require that you transfer registration to Dreamhost). Then upload the files.
+  - Transfer domain registration to Dreamhost so that we can use Let's Encrypt for HTTPS.
+    - https://help.dreamhost.com/hc/en-us/articles/215250318.
+    - Cost is $9.99: https://www.dreamhost.com/domains/pricing/
+  - Then upload the files.
 - Add to my portfolio.
