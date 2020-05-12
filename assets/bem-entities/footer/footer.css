@@ -14,6 +14,7 @@
 }
 
 .footer__icon-link,
+.footer__icon-link:focus,
 .footer__icon-link:link,
 .footer__icon-link:visited {
   color: #707070;
@@ -25,7 +26,6 @@
 }
 
 .footer__icon-link:active,
-.footer__icon-link:focus,
 .footer__icon-link:hover {
   color: #fff;
 }
