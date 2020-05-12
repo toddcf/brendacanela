@@ -5,13 +5,6 @@
 - Make sure YouTube videos play on HTTPS once site is live.
 
 
-## Social Media Links
-
-- Update all social media links. (Only homepage is updated.)
-  - IMDB
-  - Instagram
-
-
 ## HTACCESS
 
 - Force HTTPS.
