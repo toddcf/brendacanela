@@ -1,10 +1,5 @@
 # To Do
 
-## Homepage
-
-- Add the word "Representation".
-
-
 ## Résumé
 
 - Update lorem ipsum.
