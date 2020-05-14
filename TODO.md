@@ -1,10 +1,5 @@
 # To Do
 
-## Résumé
-
-- Update lorem ipsum.
-
-
 ## Hosting
 
 - Deployment checklist.
