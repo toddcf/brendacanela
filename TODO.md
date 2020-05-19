@@ -2,9 +2,7 @@
 
 - Increase site speed:
   - Compile all BEM into one file.
-    - CSS
     - JavaScript
-  - Move favicons into root directory.
   - Remove any unused fonts.
 - Run full deployment checklist again. (Minify code, etc.)
 - Redeploy.
