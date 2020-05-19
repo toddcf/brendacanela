@@ -1,0 +1,107 @@
+.body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+  .center__1140 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .center__1440 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1940px) {
+  .center__1920 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+  }
+}
+
+.header__img-lg {
+  position: relative;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header__img-lg {
+    background-image: url(../img/header__img-lg/blue-shirt-1-768x512-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    padding-bottom: 66%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header__img-lg {
+    background-image: url(../img/header__img-lg/blue-shirt-1-992x661-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 66%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1139.98px) {
+  .header__img-lg {
+    background-image: url(../img/header__img-lg/blue-shirt-1-1200x800-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 66%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1140px) {
+  .header__img-lg {
+    background-image: url(../img/header__img-lg/blue-shirt-1-1620x1080-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 66%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .header__img-sm {
+    background-image: url(../img/header__img-sm/blue-shirt-1-576x384-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    padding-bottom: 66%;
+    width: 100%;
+  }
+}
