@@ -1,0 +1,311 @@
+.body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+  .center__1140 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .center__1440 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+  }
+}
+
+.credits-module {
+  margin: 0 auto;
+  padding-bottom: 2em;
+  width: 90%;
+}
+
+@media (min-width: 1500px) {
+  .credits-module {
+    width: 100%;
+  }
+}
+
+.credits-module__flex-item {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .credits-module__flex-item {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 30%;
+  }
+}
+
+.credits-module__flexbox {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+@media (min-width: 576px) {
+  .credits-module__flexbox {
+    margin-bottom: .75em;
+  }
+}
+
+.credits-module__heading {
+  border-bottom: .05em solid #d6c7b0;
+  color: #d6c7b0;
+  font-family: 'Belleza', sans-serif;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  margin-bottom: .7em;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  text-transform: uppercase;
+}
+
+.credits-module__heading-icon {
+  margin-right: .5em;
+}
+
+.credits-module__director {
+  color: #707070;
+  font-family: 'Belleza', sans-serif;
+}
+
+.credits-module__role {
+  color: #707070;
+  font-family: 'Belleza', sans-serif;
+}
+
+.credits-module__title {
+  color: #707070;
+  font-family: 'Belleza', sans-serif;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  .header-overlap {
+    padding-top: 1em;
+  }
+}
+
+.header-overlap__content-box {
+  padding-bottom: 3em;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (min-width: 576px) {
+  .header-overlap__content-box {
+    margin: 0 0 0 auto;
+    width: 37%;
+  }
+}
+
+.header-overlap__heading {
+  color: #d6c7b0;
+  font-family: 'Belleza', sans-serif;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  .header-overlap__heading {
+    margin-bottom: .5em;
+    text-align: right;
+  }
+}
+
+.header-overlap__img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  margin-bottom: 1em;
+  padding-bottom: 66%;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .header-overlap__img {
+    background-image: url(../img/header-overlap__img/black-shirt-1-576x384-min.jpg);
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header-overlap__img {
+    background-image: url(../img/header-overlap__img/black-shirt-1-768x512-min.jpg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-overlap__img {
+    background-image: url(../img/header-overlap__img/black-shirt-1-992x661-min.jpg);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-overlap__img {
+    background-image: url(../img/header-overlap__img/black-shirt-1-1200x800-min.jpg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-overlap__img {
+    background-image: url(../img/header-overlap__img/black-shirt-1-1440x960-min.jpg);
+  }
+}
+
+@media (min-width: 576px) {
+  .header-overlap__img-positioner {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 65%;
+    z-index: 1;
+  }
+}
+
+.header-overlap__relative {
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+}
+
+@media (min-width: 1500px) {
+  .header-overlap__relative {
+    width: 100%;
+  }
+}
+
+.header-overlap__text {
+  color: #d6c7b0;
+  font-family: 'Belleza', sans-serif;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  margin-bottom: .5em;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+}
+
+.header-overlap__text-span {
+  color: #d6c7b0;
+  display: inline;
+  position: relative;
+}
+
+.header-overlap__text-span::before,
+.header-overlap__text-span::after {
+  border-top: 1px solid #d6c7b0;
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 50px;
+}
+
+.header-overlap__text-span::before {
+  margin-right: 20px;
+  right: 100%;
+}
+
+.header-overlap__text-span::after {
+  left: 100%;
+  margin-left: 1rem;
+}
+
+.header-overlap__text_overflow {
+  margin: 0 2em;
+  overflow: hidden;
+  text-align: center;
+}
+
+.header-overlap_black {
+  background: #000;
+}
+
+.resume-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 133%;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  width: 100%;
+}
+
+.resume-img:hover {
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+@media (max-width: 575.98px) {
+  .resume-img {
+    background-image: url(../img/resume-img/resume-img-576x745-min.jpg);
+  }
+}
+
+@media (min-width: 576px) {
+  .resume-img {
+    background-image: url(../img/resume-img/resume-img-768x994-min.jpg);
+  }
+}
+
+.resume-img__overflow {
+  overflow: hidden;
+}
+
+.section_black {
+  background: #000;
+}
