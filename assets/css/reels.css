@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .aside__img {
   background-position: center;
   background-repeat: no-repeat;
@@ -132,7 +139,6 @@
 
 .media-module__media_audio {
   height: auto;
-  /*padding-bottom: 29.7%;*/
 }
 
 .media-module__media_video {
