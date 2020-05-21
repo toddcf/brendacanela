@@ -141,6 +141,10 @@
   height: auto;
 }
 
+.media-module__media_audio_iframe {
+  border: none;
+}
+
 .media-module__media_video {
   height: 0;
   overflow: hidden;
@@ -148,7 +152,8 @@
   position: relative;
 }
 
-.media-module__media_video iframe {
+.media-module__media_video_iframe {
+  border: none;
   height: 100%;
   left: 0;
   position: absolute;
