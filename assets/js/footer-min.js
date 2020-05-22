@@ -1,0 +1,1 @@
+var thisYear=(new Date).getFullYear(),thruCurrentYear=document.querySelector(".currentYear");thruCurrentYear.innerHTML="&ndash;&nbsp;"+thisYear+"&nbsp;";
