@@ -143,11 +143,13 @@
 
 .media-module__media_audio_iframe {
   border: none;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
 }
 
 .media-module__media_video {
   height: 0;
-  overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
 }
@@ -156,6 +158,7 @@
   border: none;
   height: 100%;
   left: 0;
+  overflow: hidden;
   position: absolute;
   top: 0;
   width: 100%;
