@@ -12,3 +12,16 @@
 - Reels
   - Mobile: 35
   - Desktop: 76
+
+
+## BEM (Compiled), Minified HTML, CSS, and JavaScript
+
+- Homepage
+  - Mobile: 99
+  - Desktop: 99
+- Resume
+  - Mobile: 96
+  - Desktop: 100
+- Reels
+  - Mobile: 36
+  - Desktop: 79
